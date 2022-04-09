@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
-
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import loginPage from '../src/Auth/loginPage'
+import MyProfile from './page/Myprofile'
 
 ReactDOM.render(
     <BrowserRouter>

@@ -18,7 +18,8 @@ class LoginPage extends Component {
                     </div>
                     <Form className="login-container">
                         <FormGroup>
-                            <div className="ad1"><img className="ad" src={userimg}></img></div>
+                            <div>
+                                <img className="ad " src={userimg}></img></div>
                             <Input
                                 id="exampleEmail"
                                 name="email"
@@ -27,7 +28,8 @@ class LoginPage extends Component {
                             />
                         </FormGroup>
                         <FormGroup>
-                            <div> <image className="pa" src={imgpass}></image></div>
+                            <div>
+                                <img src={imgpass} className="aa1" />;</div>
                             <Input
                                 id="examplePassword"
                                 name="password"

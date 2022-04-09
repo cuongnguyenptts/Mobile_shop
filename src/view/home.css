@@ -1,0 +1,55 @@
+.Ma {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    text-decoration: none;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.Row {
+    width: 100%;
+    height: 12.5vh;
+    margin-left: 0px;
+}
+
+.row-shop-1.row {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 16px;
+    padding: 20px;
+    height: auto;
+}
+
+.row-shop-2.row {
+    font-family: 'Roboto';
+    font-style: Regular;
+    font-size: 28px;
+    line-height: 16px;
+    Line-height: 49%;
+    padding: 22px;
+    border: 1px solid #000000;
+    border-top: 0.2cm;
+    border-left: 0.2cm;
+    border-right: 0.2cm;
+}
+
+.row-s {
+    height: 7.5vh;
+}
+
+img.search {
+    width: 35px;
+    height: 35px;
+}
+
+.search {
+    border: 1px solid #000000;
+    height: 15vh;
+}
