@@ -9,8 +9,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import data from "./data";
-import { CartContext } from '../context/cart';
-import { useCart } from 'react-use-cart'
+import { CartContext } from '../context/cart'
 
 export default class Home extends React.Component {
     render() {

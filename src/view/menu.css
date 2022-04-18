@@ -64,7 +64,7 @@
 .Shop:hover {
     display: flex;
     width: 100%;
-    background: aqua;
+    border: 1px solid aqua;
 }
 
 .add {
