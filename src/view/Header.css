@@ -28,6 +28,9 @@ header {
 
 img.img {
     align-items: center;
+    width: 96px;
+    height: 97px;
+    margin: 0 0 0 0;
 
 }
 

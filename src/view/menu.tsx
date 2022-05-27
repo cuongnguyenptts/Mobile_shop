@@ -3,16 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Collapse, Nav, NavItem, NavLink, NavbarToggler, NavbarBrand, } from "reactstrap";
 import { Link } from "react-router-dom";
 import './menu.css'
-import MyProfile from "../page/Myprofile";
 import shop from '../Image/shop.png';
 import cart from '../Image/cart.png';
 import mypro from '../Image/mypro.png'
-function Menu() {
+
+const Menu: React.FC = () => {
     const [sidebar, setSidebar] = useState(true);
     const showSidebar = () => setSidebar(!sidebar);
     return (
         <div className="menu" >
-            <div>
+            <div className="meun-1">
                 <Navbar color="faded" light>
                     <div className="head-menu">
                         <NavbarBrand className="me-auto">Menu</NavbarBrand>
@@ -23,7 +23,7 @@ function Menu() {
                             <Nav navbar>
                                 <NavItem className="Shop">
                                     <NavLink>
-                                        <Link to='/src/view' className="link">
+                                        <Link to='/shop/' className="link">
                                             <img src={shop}></img>
                                             <h3 className="h3">Shop</h3>
                                         </Link >
@@ -31,7 +31,7 @@ function Menu() {
                                 </NavItem>
                                 <NavItem className="Shop">
                                     <NavLink>
-                                        <Link to='/src/view' className="link">
+                                        <Link to='/cart/' className="link">
                                             <img src={cart}></img>
                                             <h3 className="h3">Cart</h3>
                                         </Link >
@@ -39,7 +39,7 @@ function Menu() {
                                 </NavItem>
                                 <NavItem className="Shop">
                                     <NavLink>
-                                        <Link to='/my/' className="link">
+                                        <Link to='/MyProfile/' className="link">
                                             <img src={mypro}></img>
                                             <h3 className="h3">MyProfile</h3>
                                         </Link >

@@ -4,6 +4,7 @@
 
 .ctner {
     margin: 0 0 0 0;
+    width: 100%;
 
 }
 
@@ -102,7 +103,7 @@ button.dropdown-toggle.btn.btn-primary {
     border: 0;
 }
 
-h {
+h4 {
     text-decoration: none;
     padding: 20px 0 0 0;
     box-shadow: 0 1px #000000;
@@ -113,12 +114,12 @@ h {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    width: 52%;
+    width: 41%;
 
 }
 
 input#start {
-    width: 27%;
+    width: 25%;
     border: 0px;
     box-shadow: 0 1px #000000;
     font-family: 'Roboto';

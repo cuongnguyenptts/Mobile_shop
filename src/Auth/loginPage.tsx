@@ -1,16 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import "./login.css"
 import logo from "../Image/logo1.png";
 import userimg from "../Image/logo-user.png"
 import logo2 from "../Image/273474806_523935232515257_9211143483674993718_n.png"
 import imgpass from "../Image/logo-password.png"
 import hideimg from "../Image/logo-invisible.png"
-import { Form, Button, Label, FormGroup, Input, } from "reactstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Form, Button, Label, FormGroup, Input } from "reactstrap";
 import { Link } from "react-router-dom";
 
-class LoginPage extends Component {
-    render() {
-        return (
+const Login: React.FC = () => {
+    return (
+        <>
             <div className="background" >
                 <div className="">
                     <div className="logo">
@@ -36,7 +37,9 @@ class LoginPage extends Component {
                                 placeholder="Mật khẩu "
                                 type="password"
                             />
-                            <image src={hideimg}></image>
+                            <div className="d-hide">
+                                <img className="hide" src={hideimg}></img>;
+                            </div>
                         </FormGroup>
                         < FormGroup check className="div_lef">
                             <Input type="checkbox" />
@@ -51,7 +54,7 @@ class LoginPage extends Component {
                         <div className="btn-submit">
                             <nav>
                                 <Link to="/home">
-                                    <Button>
+                                    <Button className="btn-login">
                                         Đăng Nhập
                                     </Button>
                                 </Link>
@@ -67,7 +70,7 @@ class LoginPage extends Component {
                     </div>
                 </div>
             </div>
-        )
-    }
+        </>
+    )
 }
-export default LoginPage;
+export default Login;

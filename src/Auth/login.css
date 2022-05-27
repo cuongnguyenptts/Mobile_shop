@@ -88,7 +88,8 @@ a {
     color: #FFFFFF;
 }
 
-button.btn.btn-secondary {
+button.btn-login.btn.btn-secondary {
+
     width: 95%;
     background: linear-gradient(180deg, #01AEEF 0%, #0093E9 100%);
     border-radius: 5px;
@@ -160,4 +161,11 @@ img.aa1 {
 
 button.btn.btn-secondary:hover {
     color: #FFFFFF;
+}
+
+img.hide {
+    width: 23px;
+    margin: -47px 0 0 510px;
+    height: 23px;
+    position: absolute;
 }
